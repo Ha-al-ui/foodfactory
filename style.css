@@ -1,0 +1,637 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 1);
+    width: 100%;
+    height: 100%;
+
+    border-radius: 1%;
+    display: block;
+    
+
+
+}
+nav{
+position:fixed;
+background-color: black;
+z-index: 1;
+
+width: 100%;
+
+}
+.icones a{
+    color: black;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    background-color: #F9C200;
+    margin: 0 3px 3px 0;
+    margin-top: 1%;
+}
+.icones a:hover{
+    color: #F9C200;
+    background-color: #ffffff;
+}
+.call{
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 13px;
+    font-family: 'Rubik';
+
+}
+h4{
+    color: #F9C200;
+    margin-top: 5px;
+}
+.food{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    text-align: center;
+    color: #FEFCF6;
+    font-family: Zeyada;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+.thehead{
+    display: grid;
+    grid-template-columns: 30% 30% 10%;
+
+}
+.Book{
+    border-radius: 15px;
+    width: 300px;
+    height: 30px;
+    background-color: #F9C200;
+    font-size: 18px;
+    margin-left: 200%;
+    margin-top: 10%;
+    font-weight: bold;
+    font-family: 'Rubik';
+}
+.Book:hover{
+    color: #F9C200;
+    background-color: #ffffff;
+}
+.healthy{
+    color: #F9C200;
+    font-size: 72px;
+    font-family: 'Rubik';
+    padding-top: 20px;
+}
+.command{
+     color: #F9C200;
+    width: 641px;
+    height: 54px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 57px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.10px;
+    padding-top: 30px;
+   
+}
+header{ 
+    background-image: url(picvideo.gif);
+    height: 500px;
+    padding-left: 5%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1400px;
+    margin-left: 30px;
+}
+.factory{
+    padding-top: 60px;
+    z-index: 1;
+    
+}
+.pridenjoy {
+    background-color: #F9C200;
+    text-align: justify;
+    width: 26.3%;
+    height: 450px;
+    padding-left: 34px;
+    padding-top: 30px;
+    margin-top: -100px;
+    margin-left: 22%;
+    border: #F9C200 solid;
+    border-radius: 8px;
+}
+.p-title{
+    font-size: 25px;
+    font-family: 'Porter Sans Block',arial;
+    color: #ffffff;
+}
+h5{
+    font-family: 'Architects Daughter';
+    color: black;
+}
+.i-will{
+    font-family: 'Architects Daughter';
+    padding-top: 20px;
+    color: black;
+}
+.img1{
+      width: 30%;
+      margin-left: 50%;
+      margin-top: -470px;
+      height: 480px;
+      border: #F9C200 solid;
+      border-radius: 8px;
+}
+
+    
+   
+
+.main-image{
+    margin-left: 0%;
+      margin-top: -15px;
+      height: 900px;
+}
+.visit{
+    border-radius: 9px;
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Rubik';
+    color: #F9C200;
+}
+.prices {
+   margin-top: -850px; 
+   display: grid;
+   grid-template-columns:repeat(2, 1fr);
+   grid-template-rows: repeat(2,2fr);
+    grid-gap: 30px;
+    margin-left: 350px;
+    grid-area: calc(200px
+    );
+   
+}
+
+ 
+#box1{display: grid;
+    grid-row: 1/2; 
+}
+#box2{display: grid;
+    grid-row: 1/2;
+    margin-left: -150px;
+    
+
+}
+#box3{display: grid;
+    grid-column: 2/1;
+    
+
+}
+#box4{
+display: grid ;
+grid-row: 2/2;
+grid-column: 2/2;
+margin-left: -150px;
+}
+.img{
+border: #F9C200 3px solid;
+border-radius: 5%;
+width: 400px;
+height: 250PX;
+}
+span{
+    color: #ffffff;
+}
+
+#menu {
+    color:#F9C200;
+    font-family: 'Rubik';
+    margin-left: 200px;
+    font-size: 60px;
+}
+#pastilla{
+    border:solid;
+    border-color: black;
+    border-radius: 23%;
+    height: 200px;
+    width: 300px;
+    
+    
+}
+#chick-wing{
+    border:solid;
+    border-color: black;
+    border-radius: 20%;
+    height: 200px;
+    width: 300px;
+    
+    
+}
+#special{
+    display: grid;
+    grid-template-columns:repeat(1, 1fr);
+        grid-template-rows: repeat(3,3fr);
+        grid-gap: 30px;
+        margin-left: 350px;
+        
+
+}
+#m-food{
+    display: grid;
+    grid-row: 1/3;
+    margin-left: -150px;
+
+}
+#buffalo{
+    display: grid;
+    grid-row: 3/3;
+    margin-top: -470px;
+    margin-left: 240px;
+}
+#chicken{
+    display: grid;
+    grid-row: 1/2; 
+    margin-right: 230px;
+    
+}
+#wrap{
+    border:solid;
+    border-color: black;
+    border-radius: 20%;
+    height: 200px;
+    width: 300px;
+}
+#factory{
+margin-top: -400px;
+height: 700px;
+
+}
+#team{
+margin-left: 500px;
+border:#F9C200 2px solid;
+border-radius: 5%;
+margin-top :20px; 
+
+}
+.our{
+font-family:Architects Daughter;
+color: #F9C200;
+padding-left: 220px;
+font-size: 72px;
+}
+footer{
+
+background-color: #F9C200;
+height: 300px;
+width: 100%;
+}
+#logotype{
+margin-left: 500px;
+margin-top:50px;
+height: 200px;
+
+}
+#logoimg{
+ margin-left: 1150px;
+margin-top:-254px;
+height: 300px;
+
+
+}
+
+
+
+.code{
+    margin-left: 200px;
+    margin-top:-390px;
+    height: 200px;
+    margin-bottom: 45px;
+}
+.designers{
+    background-color: black;
+    color: #ffffff;
+    width: 100%;
+    margin-top: -20px;
+}
+.designers p{
+    margin-left: 80px;
+    font-family: 'Rubik';
+}
+.ad{
+    color:#F9C200;
+}
+@media only screen and (max-width:812px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color:black;
+        width: 100%;
+        height: 100%;
+    
+        border-radius: 1%;
+        display: block;
+        
+    
+    }
+    nav{
+        background-color: #F9C200;
+        width: 1360px;
+        color:black ;
+    }
+    .icones{
+        color: black;
+        display: inline-block;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        transition: all 0.5s ease;
+    }
+    .call{
+        margin-left: 30px;
+        font-size: 20px;
+        line-height: 13px;
+        font-family: 'Rubik';
+    
+    }
+    h4{
+        color: black;
+    }
+    .food{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 57px;
+        text-align: center;
+        color: #FEFCF6;
+        font-family: Zeyada;
+        margin-top: 10px;
+        margin-left: 30px;
+    
+    }
+    .thehead{
+        display: grid;
+        grid-template-columns: 30% 30% 10%;
+    
+    }
+    .Book{
+        border-radius: 15px;
+        width: 200px;
+        height: 30px;
+        background-color:black;
+        font-size: 18px;
+        margin-left: 200%;
+        margin-top: 15%;
+        font-weight: bold;
+        font-family: 'Rubik';
+        color: #F9C200;
+    }
+    .healthy{
+        color: #F9C200;
+        font-size: 72px;
+        font-family: 'Rubik';
+        
+        
+    }
+    .command{
+         color: #F9C200;
+        width: 641px;
+        height: 54px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 57px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 0.10px;
+        padding-top: 30px;
+       
+    }
+    header{
+        background-image: url(picvideo.gif);
+        height: 200px;
+        background-size: cover;
+        
+       
+        padding-left: 5%;
+        
+    
+        width: 1285px;
+        height: 700px;
+    
+        
+    }
+    .factory{
+        padding-top: 60px;
+    }
+    .pridenjoy {
+        background-color: #F9C200;
+        text-align: justify;
+        width: 26.3%;
+        height: 450px;
+        padding-left: 34px;
+        padding-top: 30px;
+        margin-top: -100px;
+        margin-left: 22%;
+        border: #F9C200 solid;
+        border-radius: 8px;
+        display: none;
+    }
+    .p-title{
+        font-size: 25px;
+        font-family: 'Porter Sans Block',arial;
+        color: #ffffff;
+    }
+    h5{
+        font-family: 'Architects Daughter';
+        color: black;
+    }
+    .i-will{
+        font-family: 'Architects Daughter';
+        padding-top: 20px;
+        color: black;
+        display: none;
+    
+    }
+    .img1{
+          width: 30%;
+          margin-left: 50%;
+          margin-top: -470px;
+          height: 480px;
+          border: #F9C200 solid;
+          border-radius: 8px;
+          display: none;
+    }
+    
+        
+       
+    
+    .main-image{
+        margin-left: 0%;
+          margin-top: -15px;
+          height: 900px;
+    }
+    .visit{
+        border-radius: 9px;
+        width: 200px;
+        height: 30px;
+        background-color: black;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Rubik';
+        color: #F9C200;
+    }
+    .prices {
+        display: flex;
+        flex-direction: column;
+       margin-top: -850px;
+       margin-left: 360px; 
+    }
+    #box2{
+        margin-left: 1px;
+    }
+    #box4{
+        margin-left: 1px;
+    }
+    
+    .img{
+        border: #F9C200 3px solid;
+        border-radius: 5%;
+        width: 600px;
+        height: 400PX;
+    }
+    span{
+        color: #ffffff;
+    }
+    
+    #menu {
+        color:#F9C200;
+        font-family: 'Rubik';
+        margin-left: 120px;
+        font-size: 60px;
+    }
+    #pastilla{
+        border:solid;
+        border-color: black;
+        border-radius: 23%;
+        height: 200px;
+        width: 300px;
+        
+        
+    }
+    #chick-wing{
+        border:solid;
+        border-color: black;
+        border-radius: 20%;
+        height: 200px;
+        width: 300px;
+        
+        
+    }
+    #special{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        grid-template-rows: repeat(3,3fr);
+        grid-gap: 30px;
+        margin-left: 280px;
+            
+    
+    }
+    #m-food{
+        display: grid;
+        grid-row: 1/3;
+        margin-left: -150px;
+    
+    }
+    #buffalo{
+        display: grid;
+        grid-row: 3/3;
+        margin-top: -470px;
+        margin-left: 240px;
+    }
+    #chicken{
+        display: grid;
+        grid-row: 1/2; 
+        margin-right: 230px;
+    }
+    #wrap{
+        border:solid;
+        border-color: black;
+        border-radius: 20%;
+        height: 200px;
+        width: 300px;
+    }
+    #factory{
+    margin-top: -400px;
+    height: 700px;
+    
+    }
+    #team{
+    margin-left: 350px;
+    border:#F9C200 2px solid;
+    border-radius: 5%;
+    margin-top :20px; 
+    
+    }
+    .our{
+    font-family:Architects Daughter;
+    color: #F9C200;
+    padding-left: 130px;
+    font-size: 72px;
+    }
+    footer{
+    
+    background-color: #F9C200;
+    height: 300px;
+    width: 1200px;
+    padding: 20%;
+    }
+    #logotype{
+    margin-left: 300px;
+    margin-top:50px;
+    height: 200px;
+    
+    }
+    #logoimg{
+     margin-left: 900px;
+    margin-top:-254px;
+    height: 300px;
+    
+    
+    }
+    
+    
+    
+    .code{
+        margin-left: 30px;
+        margin-top:-450px;
+        height: 200px;
+        margin-bottom: 45px;
+    }
+    .designers{
+        background-color: black;
+        color: #ffffff;
+        width: 110%;
+        margin-left: -60px;
+        margin-top: 20px;
+    }
+    .designers p{
+        font-family: 'Rubik';
+    }
+    .ad{
+        color:#F9C200;
+    }
+   
+    
+   
+}
